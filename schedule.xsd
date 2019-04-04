@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema" elementFormDefault = "qualified" attributeFormDefault = "unqualified">
+	
+	<xsd:element name = "schedule">
+		<xsd:complexType>
+			<xsd:sequence>
+				
+				<xsd:element name = "course" minOccurs = "1" maxOccurs = "unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name = "programIdentifier" type = "xsd:string"/>
+							<xsd:element name = "courseNumber" type = "xsd:integer"/>
+							<xsd:element name = "classNumber" type = "xsd:string"/>
+							<xsd:element name = "title" type = "xsd:string"/>
+							<xsd:element name = "credits" type = "xsd:integer"/>
+							<xsd:element name = "prerequisiteClasses" type = "xsd:string"/>
+							<xsd:element name = "description" type = "xsd:string"/>
+							<xsd:element name = "section" minOccurs = "1" maxOccurs = "unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name = "sectionNumber" type = "xsd:integer"/>
+										<xsd:element name = "instructor" type = "xsd:string"/>
+										<xsd:element name = "scheduleNumber" type = "xsd:integer"/>
+										<xsd:element name = "room" type = "xsd:string"/>
+										<xsd:element name = "days" type = "xsd:string"/>
+										<xsd:element name = "startTime" type = "xsd:time"/>
+										<xsd:element name = "endTime" type = "xsd:time"/>
+										<xsd:element name = "status" type = "xsd:string"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>	
+</xsd:schema>

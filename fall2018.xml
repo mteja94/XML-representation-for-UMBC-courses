@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schedule 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:noNamespaceSchemaLocation="schedule.xsd">
+ 
+<?xml-stylesheet type = "text/xsl" href = "schedule.xsl"?>
+	
+	<course>
+		<programIdentifier>CMSC</programIdentifier>
+		<courseNumber>435</courseNumber>
+		<classNumber>1193</classNumber>
+		<title>Computer Graphics</title>
+		<credits>3</credits>
+		<prerequisiteClasses>CMSC313, CMSC341 and MATH221 with a grade of C or better</prerequisiteClasses>
+		<description>An introduction to the fundamentals of interactive computer graphics. Topics include graphics 
+		hardware, line drawing, area filling, clipping, two-dimensional and three-dimensional geometrical transforms, 
+		three-dimensional perspective viewing, hidden surface removal, illumination, color and shading models.</description>
+		<section>
+			<sectionNumber>01</sectionNumber>
+			<instructor>Adam Bargteil</instructor>
+			<scheduleNumber>1193</scheduleNumber>
+			<room>Sherman Hall 014</room>
+			<days>MonWed</days>
+			<startTime>13:00:00</startTime>
+			<endTime>14:15:00</endTime>
+			<status>Open</status>
+		</section>
+	</course>
+	
+	<course>
+		<programIdentifier>CMSC</programIdentifier>
+		<courseNumber>461</courseNumber>
+		<classNumber>1131 and 6495</classNumber>
+		<title>Database Management Systems</title>
+		<credits>3</credits>
+		<prerequisiteClasses>CMSC341 or CMSC341H with the grade of C or better</prerequisiteClasses>
+		<description>This course covers database management and the different data models used to structure
+		the logical view of databases. The course also covers database design and implementation techniques, including
+		file organization, query processing, concurrency control, recovery, integrity and security.</description>
+		<section>
+			<sectionNumber>01</sectionNumber>
+			<instructor>Konstantin Kalpakis</instructor>
+			<scheduleNumber>1131</scheduleNumber>
+			<room>Biological Sciences 120</room>
+			<days>TueThu</days>
+			<startTime>11:30:00</startTime>
+			<endTime>12:45:00</endTime>
+			<status>Closed</status>
+		</section>
+	</course>
+	
+	<course>
+		<programIdentifier>CMSC</programIdentifier>
+		<courseNumber>461</courseNumber>
+		<classNumber>1131 and 6495</classNumber>
+		<title>Database Management Systems</title>
+		<credits>3</credits>
+		<prerequisiteClasses>CMSC341 or CMSC341H with the grade of C or better</prerequisiteClasses>
+		<description>This course covers database management and the different data models used to structure
+		the logical view of databases. The course also covers database design and implementation techniques, including
+		file organization, query processing, concurrency control, recovery, integrity and security.</description>
+		<section>
+			<sectionNumber>02</sectionNumber>
+			<instructor>Konstantin Kalpakis</instructor>
+			<scheduleNumber>6495</scheduleNumber>
+			<room>Biological Sciences 120</room>
+			<days>TueThu</days>
+			<startTime>13:00:00</startTime>
+			<endTime>14:15:00</endTime>
+			<status>Closed</status>
+		</section>
+	</course>
+	
+</schedule>
